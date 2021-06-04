@@ -27,16 +27,16 @@ const Home = ({ navigation }) => {
     const [trending, setTrending] = React.useState([
         {
             id: 0,
-            name: "Nike Air Zoom Pegasus 36",
+            name: " School Bag",
             img: images.bagpack1,
             bgColor: "#BF012C",
-            type: "RUNNING",
+            type: "BLUCK",
             price: "$186",
             sizes: [6, 7, 8, 9, 10]
         },
         {
             id: 1,
-            name: "Nike Metcon 5",
+            name: "College Bag",
             img: images.bagpack2,
             bgColor: "#D39C67",
             type: "TRAINING",
@@ -45,10 +45,10 @@ const Home = ({ navigation }) => {
         },
         {
             id: 2,
-            name: "Nike Air Zoom Kobe 1 Proto",
+            name: "Air Bagpack",
             img: images.bagpack3,
             bgColor: "#7052A0",
-            type: "BASKETBALL",
+            type: "BLACK",
             price: "$199",
             sizes: [6, 7, 8, 9]
         },
@@ -57,7 +57,7 @@ const Home = ({ navigation }) => {
     const [recentlyViewed, setRecentlyViewed] = React.useState([
         {
             id: 0,
-            name: "Nike Metcon 4",
+            name: "Bagpack 4",
             img: images.bagpack4,
             bgColor: "#414045",
             type: "TRAINING",
@@ -66,16 +66,16 @@ const Home = ({ navigation }) => {
         },
         {
             id: 1,
-            name: "Nike Metcon 6",
+            name: "School Bagpack 5",
             img: images.bagpack5,
             bgColor: "#4EABA6",
-            type: "TRAINING",
+            type: "BLACK",
             price: "$135",
             sizes: [6, 7, 8, 9, 10, 11]
         },
         {
             id: 2,
-            name: "Nike Metcon 5",
+            name: "Air Back Pack",
             img: images.bagpack6,
             bgColor: "#2B4660",
             type: "TRAINING",
@@ -84,19 +84,19 @@ const Home = ({ navigation }) => {
         },
         {
             id: 3,
-            name: "Nike Metcon 3",
+            name: "Air Back Pack 3",
             img: images.bagpack7,
             bgColor: "#A69285",
-            type: "TRAINING",
+            type: "Black",
             price: "$99",
             sizes: [6, 7, 8, 9, 10, 11, 12, 13]
         },
         {
             id: 4,
-            name: "Nike Metcon Free",
+            name: "Collage Back Pack 3",
             img: images.bagpack2,
             bgColor: "#A02E41",
-            type: "TRAINING",
+            type: "COLLAGE",
             price: "$108",
             sizes: [6, 7, 8, 9, 10, 11]
         },
