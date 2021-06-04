@@ -53,7 +53,7 @@ const App = () => {
                     name="Home"
                     component={Home}
                     options={{
-                        title: 'SHOE SELECTOR',
+                        title: 'Bag Seller',
                         headerStyle: {
                             //backgroundColor: '#f4511e',
                         },
