@@ -16,15 +16,16 @@ import {
 import { BlurView } from "expo-blur";
 
 import { images, icons, COLORS, FONTS, SIZES } from '../constants';
+import { useState } from 'react';
 
 const Home = ({ navigation }) => {
 
-    const [showAddToBagModal, setShowAddToBagModal] = React.useState(false)
-    const [selectedItem, setSelectedItem] = React.useState(null)
-    const [selectedSize, setSelectedSize] = React.useState("")
+    const [showAddToBagModal, setShowAddToBagModal] = useState(false)
+    const [selectedItem, setSelectedItem] = useState(null)
+    const [selectedSize, setSelectedSize] = useState("")
 
     // Dummy Data
-    const [trending, setTrending] = React.useState([
+    const [trending, setTrending] = useState([
         {
             id: 0,
             name: " School Bag",
@@ -54,7 +55,7 @@ const Home = ({ navigation }) => {
         },
     ]);
 
-    const [recentlyViewed, setRecentlyViewed] = React.useState([
+    const [recentlyViewed, setRecentlyViewed] = useState([
         {
             id: 0,
             name: "Bagpack 4",

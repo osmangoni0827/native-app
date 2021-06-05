@@ -14,8 +14,8 @@ import {
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 
-// screens
-import { Home } from "./screens/";
+// src
+import { Home } from "./src/";
 
 import { images, icons, COLORS, FONTS, SIZES } from './constants';
 import { useFonts } from 'expo-font';
